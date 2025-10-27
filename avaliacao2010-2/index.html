@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Delícia Express - Comida Rápida e Saborosa</title>
+  </head>
+  <body>
+    <!-- Cabeçalho e menu -->
+    <header id="inicio">
+      <div class="logo">Delícia <span>Express</span></div>
+      <nav>
+        <ul>
+          <li><a href="#carouselImproved">Início</a></li>
+          <li><a href="#cardapio">Cardápio</a></li>
+          <li><a href="#promocoes">Promoções</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+
+        <div class="search-bar">
+          <input type="text" placeholder="Buscar pratos..." />
+          <button></button>
+        </div>
+
+        <!-- Botões de Cadastro e Login -->
+        <a href="cadastro.html" class="login-btn">Cadastrar</a>
+        <a href="login.html" class="login-btn">Login</a>
+      </nav>
+    </header>
+
+    <!-- Carrossel -->
+    <div id="carouselImproved" class="carousel slide mt-3" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselImproved" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#carouselImproved" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#carouselImproved" data-bs-slide-to="2"></button>
+      </div>
+
+      <div class="carousel-inner rounded-4 shadow-lg">
+        <div class="carousel-item active" data-bs-interval="2500">
+          <img src="/pizza2.avif" class="d-block w-100" alt="Prato delicioso de comida brasileira" />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Sabores irresistíveis</h5>
+            <p>Descubra o melhor da culinária com apenas um clique.</p>
+          </div>
+        </div>
+
+         <div class="carousel-inner rounded-4 shadow-lg">
+        <div class="carousel-item active" data-bs-interval="2500">
+          <img src="comida1 (1).avif" class="d-block w-100" alt="Prato delicioso de comida brasileira" />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Sabores irresistíveis</h5>
+            <p>Descubra o melhor da culinária com apenas um clique.</p>
+          </div>
+        </div>
+
+        <div class="carousel-item" data-bs-interval="2500">
+          <img src="/pizza.avif" class="d-block w-100" alt="Mesa com vários pratos coloridos" />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Peça agora mesmo</h5>
+            <p>Explore novas opções e aproveite promoções especiais.</p>
+          </div>
+        </div>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselImproved" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselImproved" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Próximo</span>
+      </button>
+    </div>
+
+     <!-- Seção Cardápio -->
+    <section id="cardapio" class="container mt-5 mb-5">
+      <h2 class="text-center mb-4">Cardápio</h2>
+      <p class="text-center">Confira alguns dos nossos pratos deliciosos:</p>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card shadow-sm">
+            <img src="/pizza2.avif" class="card-img-top" alt="Pizza" />
+            <div class="card-body text-center">
+              <h5 class="card-title">Pizza Artezanal</h5>
+              <p class="card-text">
+                Deliciosa pizza artesanal com ingredientes frescos.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow-sm">
+            <img src="/combo.jpg" class="card-img-top" alt="Hambúrguer" />
+            <div class="card-body text-center">
+              <h5 class="card-title">Combo Especial</h5>
+              <p class="card-text">
+                Saboroso Hambúrguer, Batatas e Refrigerante serve dois, feito
+                com amor.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow-sm">
+            <img src="/batatasecebolas.jpg" class="card-img-top" alt="Hambúrguer" />
+            <div class="card-body text-center">
+              <h5 class="card-title">Porções</h5>
+              <p class="card-text">
+                Batatas fritas com aneis de cebola empanadas.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow-sm">
+            <img src="/hamburguer.jpg" class="card-img-top" alt="Hambúrguer" />
+            <div class="card-body text-center">
+              <h5 class="card-title">X-Tudo</h5>
+              <p class="card-text">
+                X-Tudo completos com tudo que você merece, da melhor qualidade.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow-sm">
+            <img src="/nugget-supreme-1659132727.jpg" class="card-img-top" alt="Hambúrguer" />
+            <div class="card-body text-center">
+              <h5 class="card-title">Nuggets</h5>
+              <p class="card-text">
+                Nuggets crocantes de quentinhos .
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow-sm">
+            <img src="/comida4.avif" class="card-img-top" alt="Combo" />
+            <div class="card-body text-center">
+              <h5 class="card-title">Pizza de queijo </h5>
+              <p class="card-text">
+                Pizza de 4 queijos, por preço incrível.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Promoções / Banners -->
+     
+    <section class=" container banners justify-content-around" id="promocoes">
+      <div class="banner">
+        <h2>Combo do Dia</h2>
+        <p>Hambúrguer + Batata + Refri por R$19,90</p>
+        <button>Peça Imediatamente</button>
+      </div>
+      <div class="banner">
+        <h2>Porção de Mini Coxinhas</h2>
+        <p> 15 mini coxinhas por R$7,99</p>
+        <button>Peça Imediatamente</button>
+      </div>
+      <div class="banner">
+        <h2>Combo Fim de Ano</h2>
+        <p>Hambúrguer + Batata + Coxinhas + Nuggets + Aneis de Cebola + Refri por R$49,90</p>
+        <button>Peça Imediatamente</button>
+      </div>
+       <div class="banner">
+        <h2>Rodizio</h2>
+        <p>Toda sexta rodizio com as melhores pizzas de cidade por R$42,00</p>
+        <button>Venha Experimentar</button>
+      </div>
+      <div class="banner">
+        <h2>Combo Familia</h2>
+        <p>
+          3 Cachorros um de frango, um de salcicha e um de lombo + 3 copos de
+          Refri por R$39,90
+        </p>
+        <button>Peça Imediatamente</button>
+      </div>
+     
+      <div class="banner">
+        <h2>Pizza em Dobro</h2>
+        <p>Na compra de uma pizza grande, leve outra grátis!</p>
+        <button>Veja ja as Promoções</button>
+      </div>
+    </section>
+
+
+    <!-- Seção Sobre -->
+    <section id="sobre" class="container mt-5 mb-5">
+      <h2 class="text-center mb-4">Sobre Nós</h2>
+      <p>
+        Na Delícia Express, somos apaixonados por sabor e qualidade! Preparamos pizzas artesanais com ingredientes
+        frescos e criamos combos deliciosos para todos os gostos.
+      </p>
+      <p>Mais do que um delivery, somos um lugar para compartilhar bons momentos e viver experiências únicas.</p>
+
+      <ul>
+        <li><strong>Missão:</strong> Levar qualidade e sabor, unindo pessoas em torno da boa comida.</li>
+        <li><strong>Visão:</strong> Ser a pizzaria preferida da região, referência em sabor e inovação.</li>
+        <li><strong>Valores:</strong> Qualidade, dedicação, satisfação do cliente e honestidade.</li>
+      </ul>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="container mt-5 mb-5 text-center">
+      <h2 class="mb-3">Contato via WhatsApp</h2>
+      <p>Entre em contato diretamente pelo nosso número abaixo:</p>
+      <a
+        href="https://wa.me/5532984968167"
+        target="_blank"
+        class="btn btn-success whatsapp-botao"
+      >
+        <img src="/whatsapp.png" alt="WhatsApp" class="whatsapp-icon" />
+        (32) 98496-8167
+      </a>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+      <p>Siga-nos nas redes:</p>
+      <div class="social">
+        <a href="#"><img class="favImg" src="/facebook (1).png" alt="" /> Facebook</a>
+        <a href="#"><img class="favImg" src="/twitter.png" alt="" /> Twitter</a>
+        <a href="#"><img class="favImg" src="/instagram.png" alt="" /> Instagram</a>
+      </div>
+      <p>© 2025 Delícia Express - Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- teste5 -->
+  </body>
+</html>
